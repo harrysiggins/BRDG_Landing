@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 2em !important;
+  min-height: 100% !important;
+  min-height: 100vh;
+  background-image: linear-gradient(to top right, #061627, #0e2e53);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75% 50%;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+form-inline {
+  margin-top: 1.5em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+input {
+  border: solid 2px rgba(255, 255, 255, 0.5) !important;
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.form-control, .btn {
+  margin-bottom: 0.75em;
+  width: 100%;
+}
+
+
+@media (min-width: 550px) {
+
+  .form-inline {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: auto !important;
+    margin-left: 1em;
+  }
+
+  .form-control {
+    width: 18em !important;
+  }
+
+  h1 {
+    font-size: 2.5em !important;
+  }
+
+  p {
+    font-size: 1.25em !important;
+  }
+
+}
+
+@media (min-width: 770px) {
+
+  h1 {
+    font-size: 3em !important;
+  }
+
+  p {
+    font-size: 1.75em !important;
+  }
+
+}

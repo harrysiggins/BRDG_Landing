@@ -4,42 +4,154 @@
   <head>
     <title>BRDG</title>
     <meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!-- CSS link -->
 		<link rel="stylesheet" href="assets/main.css" />
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <!-- Font-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
   </head>
 
   <body>
 
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>Build, Protect, and Strengthen Your Network</h1>
-            <p>Empower your networks through powerful introductions.</p>
-          </div>
+    <div class="container">
+
+      <!--Header Start-->
+      <header class="header">
+
+        <div class="logo">
+          <a href="#"><img src="assets/images/BRDG_Logo.svg"></a>
         </div>
 
-        <form>
-          <div class="form-inline">
-            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email Address">
-            <button type="submit" class="btn btn-primary">Get Early Access</button>
-          </div>
+        <div class="nav-toggle-label">
+          <i class="hamburger"></i>
+        </div>
+
+        <nav class="nav">
+
+          <ul>
+            <li><a href="#why">Why BRDG</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+
+        </nav>
+
+      </header>
+      <!--Header End-->
+
+
+      <!--Main Start-->
+      <section class="main">
+
+        <h1>Build Your Network Through Powerful Introductions</h1>
+
+        <h3>The better way to manage, craft, and improve your introductions.</h3>
+
+        <form class="email-form" action="" method="post">
+
+          <input type="email" name="email" placeholder="Email address" class="email">
+          <input type="submit" name="submit" value="Get Early Access" class="button">
+
         </form>
-      </div>
+
+      </section>
+      <!--Main End-->
+
+
+      <!--Why Start-->
+      <section class="why section active-section">
+
+        <h1>Why BRDG</h1>
+
+        <button class="carousel-button carousel-button--left is-hidden" name="button">
+          <img src="assets/images/Left Path.svg" alt="">
+        </button>
+
+        <div class="carousel-track-container">
+
+          <ul class="carousel-track">
+
+            <li class="carousel-slide current-slide">
+              <img class="carousel-image" src="assets/images/Group.svg" alt="">
+              <h2>Instant Intros</h2>
+              <p>Save time and create memorable introductions faster in one platform.</p>
+            </li>
+
+            <li class="carousel-slide">
+              <img class="carousel-image" src="assets/images/Collaborate Pane.svg" alt="">
+              <h2>Collaborative Copy</h2>
+              <p>Your network helps with the lifting - saving you time while helping you write the perfect intro.</p>
+            </li>
+
+            <li class="carousel-slide">
+              <img class="carousel-image" src="assets/images/Opt-In Pane.svg" alt="">
+              <h2>Double Opt-Ins</h2>
+              <p>Your network will love you by making sure they can opt in or out of every intro you offer them.</p>
+            </li>
+
+            <li class="carousel-slide">
+              <img class="carousel-image" src="assets/images/Learn and Grow Pane.svg" alt="">
+              <h2>Learn and Grow</h2>
+              <p>Your network will give you feedback and insights into the impact of  your introduction like never before</p>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <button class="carousel-button carousel-button--right" name="button">
+          <img src="assets/images/Right Path.svg" alt="">
+        </button>
+
+        <div class="carousel-nav">
+          <button class="carousel-indicator current-indicator"></button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
+        </div>
+
+      </section>
+      <!--Why End-->
+
+      <!--Blog Start-->
+      <section class="blog section hidden">
+
+        <h1>Blog</h1>
+        <figure>
+          <img src="assets/images/marketing.svg" alt="">
+          <figcaption>Coming Soon!</figcaption>
+        </figure>
+        <p>...</p>
+
+      </section>
+      <!--Blog End-->
+
+      <!--About Start-->
+      <section class="about section hidden">
+
+        <h1>About Us</h1>
+        <p class="about-1">We know introductions through and through. Making an introduction to those in your network can be extremely powerful.<br><br>Our team was built upon a handful of introductions.<br><br>Our careers and lives have benefited from simple introductions.<br><br>We want to make that magic more accessible.</p>
+        <img src="assets/images/connor-tweet.png" alt="">
+        <p class="about-2">That’s why we created BRDG. Register today for early access.</p>
+        <form class="email-form" action="" method="post">
+          <input type="email" name="email" placeholder="Email address" class="email">
+          <input type="submit" name="submit" value="Get Early Access" class="button">
+        </form>
+      </section>
+
+      </section>
+      <!--About End-->
+
     </div>
 
-    <footer class="footer text-center">
-      <span class="text-muted">&copy; BRDG.</span>
-      <!--<a style="background-color:grey;color:white;text-decoration:none;transform:scale(0.5);margin: 4px 6px;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@andersjilden?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Anders Jildén"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Anders Jildén</span></a>-->
-    </footer>
 
-    <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <!--JS and Jquery Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/carousel.js" type="text/javascript"></script>
+
+
   </body>
 </html>

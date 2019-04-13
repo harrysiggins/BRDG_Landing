@@ -404,7 +404,7 @@ h3 {
   background-color: var(--background-light);
   display: grid;
   grid-template-columns: 10vw 1fr 10vw;
-  grid-template-rows: 5vh repeat(5, 1fr) 10vh;
+  grid-template-rows: 5vh 1fr 1fr 1fr 1fr 1fr 10vh;
   align-items: center;
   text-align: center;
 }
